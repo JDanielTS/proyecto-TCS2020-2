@@ -1,0 +1,24 @@
+﻿<Window x:Class="ClienteMemorama.InicioSesion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClienteMemorama"
+        mc:Ignorable="d"
+        Title="TituloInicio" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Height="450" Width="300">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel>
+                <Image Width="100" Height="100" />
+            </StackPanel>
+            <StackPanel Margin="0,40,0,0">
+                <TextBlock Text="Etiqueta1" TextAlignment="Center" Margin="0,0,0,0" />
+                <TextBox x:Name="campo_usuario" Width="150" Margin="0,0" />
+                <TextBlock Text="Etiqueta2" TextAlignment="Center" Margin="0,10,0,0" />
+                <PasswordBox x:Name="campo_contrasena" Width="150" Margin="0,0,0,0" />
+                <TextBlock x:Name="boton_registro" Text="EtiquetaRegistro" TextAlignment="Center" TextDecorations="Underline" Foreground="Blue" Margin="0,10,0,0" MouseLeftButtonUp="clicRegistro" />
+            </StackPanel>
+            <Button x:Name="boton_Iniciar" Content="BtnIniciar" Click="clicIniciar" Margin="0,40,0,0" />
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,24 @@
+﻿<Window x:Class="ClienteMemorama.TablaPuntuaciones"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClienteMemorama"
+        mc:Ignorable="d"
+        Title="TablaPuntuaciones" SizeToContent="WidthAndHeight">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Button Content="regresar" Width="100" Margin="0,10,0,0" HorizontalAlignment="Left"/>
+        <TextBlock Grid.Row="1" Text="etqPuntuaciones" FontWeight="Bold" TextAlignment="Center" Margin="10,10,10,5" />
+        <DataGrid Grid.Row="2"  Height="200" Width="400" Margin="5,0,5,10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="usuario" />
+                <DataGridTextColumn Header="puntuacionAcumulada" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
