@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6e772778598f4b80a3a07aea2710dc0c" Name="Diagram1">
+        <EntityTypeShape EntityType="MemoramaBDModelo.Imagen" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MemoramaBDModelo.Partida" Width="1.5" PointX="5" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MemoramaBDModelo.sysdiagrams" Width="1.5" PointX="5.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MemoramaBDModelo.Usuario" Width="1.5" PointX="7.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MemoramaBDModelo.CartasJuego" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MemoramaBDModelo.Participante" Width="1.5" PointX="6" PointY="3.625" IsExpanded="true" />
+        <AssociationConnector Association="MemoramaBDModelo.FK_CartasJuego_Imagen" ManuallyRouted="false" />
+        <AssociationConnector Association="MemoramaBDModelo.FK_CartasJuego_Partida" ManuallyRouted="false" />
+        <AssociationConnector Association="MemoramaBDModelo.FK_Participante_Partida" ManuallyRouted="false" />
+        <AssociationConnector Association="MemoramaBDModelo.FK_Participante_Usuario" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
