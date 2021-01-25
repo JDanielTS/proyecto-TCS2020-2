@@ -11,7 +11,7 @@ namespace ServicioMemorama
     public interface IServicioUsuarios
     {
         [OperationContract]
-        bool ConexionServidorSesion(DatosUsuario inicioUsuario);
+        int ConexionServidorSesion(DatosUsuario inicioUsuario);
         [OperationContract]
         bool ConexionServidorRegistro(DatosUsuario registroUsuario);
         [OperationContract]

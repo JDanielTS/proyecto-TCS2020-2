@@ -20,12 +20,34 @@ namespace EntidadesMemorama
 
         public Usuario BuscarUsuarioNombre(string nombreusuario)
         {
-            return null;
+            Usuario usuarioEncontrado = null;
+            using (var entidadesDB = new MemoramaBDEntities())
+            {
+                var usuarioDB = entidadesDB.Usuario
+                    .Where(x => x.nombreUsuario == nombreusuario)
+                    .ToList();
+                if (usuarioDB != null)
+                {
+                    usuarioEncontrado = usuarioDB[0];
+                }
+            }
+            return usuarioEncontrado;
         }
 
         public Usuario BuscarUsuarioCorreo(string correo)
         {
-            return null;
+            Usuario usuarioEncontrado = null;
+            using (var entidadesDB = new MemoramaBDEntities())
+            {
+                var usuarioDB = entidadesDB.Usuario
+                    .Where(x => x.correoUsuario == correo)
+                    .ToList();
+                if (usuarioDB != null)
+                {
+                    usuarioEncontrado = usuarioDB[0];
+                }
+            }
+            return usuarioEncontrado;
         }
 
 

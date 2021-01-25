@@ -26,8 +26,8 @@ namespace ServicioMemorama
     {
         [OperationContract]
         DatosUsuario ObtenerJugador();
-        [OperationContract]
-        void 
+        //[OperationContract]
+        //void 
     }
 
     [DataContract]

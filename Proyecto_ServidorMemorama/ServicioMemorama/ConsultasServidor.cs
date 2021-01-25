@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ServicioMemorama
 {
-    class ConsultasServidor
+    public class ConsultasServidor
     {
-        using (var EntidadesMemorama.MemoramaBDEntities
+        
     }
 }

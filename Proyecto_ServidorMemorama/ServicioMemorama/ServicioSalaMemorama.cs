@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace ServicioMemorama
 {
     [ServiceBehavior (ConcurrencyMode = ConcurrencyMode.Reentrant)]
-    public partial class ServicioSalaMemorama : IServicioSalaPartida
+    public partial class ServicioSalaMemorama
     {
 
     }
