@@ -102,7 +102,7 @@ namespace ServicioMemorama
         }
         
     }
-
+    /*
     public partial class ServicioClienteMemorama : IServicioPuntuaciones
     {
         public List<PuntuacionUsuario> ObtenerTablaPuntuacion()
@@ -112,4 +112,5 @@ namespace ServicioMemorama
             return x;
         }
     }
+    */
 }

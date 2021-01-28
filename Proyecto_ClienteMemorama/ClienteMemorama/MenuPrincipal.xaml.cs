@@ -31,17 +31,17 @@ namespace ClienteMemorama
             this.Close();
         }
 
-        public void clicCrearPartida()
+        public void clicCrearPartida(Object sender, RoutedEventArgs e)
         {
 
         }
 
-        public void clicBuscarPartida()
+        public void clicBuscarPartida(Object sender, RoutedEventArgs e)
         {
 
         }
 
-        public void clicTablaPuntuaciones()
+        public void clicTablaPuntuaciones(Object sender, RoutedEventArgs e)
         {
 
         }

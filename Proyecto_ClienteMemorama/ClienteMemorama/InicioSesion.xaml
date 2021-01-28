@@ -12,6 +12,7 @@
                 <Image Width="100" Height="100" />
             </StackPanel>
             <StackPanel Margin="0,40,0,0">
+                <TextBlock x:Name="etiqueta_error" Text="" TextAlignment="Center" Margin="0,10,0,10"/>
                 <TextBlock Text="Etiqueta1" TextAlignment="Center" Margin="0,0,0,0" />
                 <TextBox x:Name="campo_usuario" Width="150" Margin="0,0" />
                 <TextBlock Text="Etiqueta2" TextAlignment="Center" Margin="0,10,0,0" />
